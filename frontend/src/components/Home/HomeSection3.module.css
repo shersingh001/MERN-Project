@@ -1,0 +1,78 @@
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.furniture_img_section{
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    padding: 500px 35px 0px 35px;
+}
+
+.furniture_img_section picture img{
+    top: -100px;
+    height: calc(100%) + 260px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    vertical-align: top;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.img_section_btn_wrapper{
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.img_section_btn{
+    justify-content: flex-end;
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+    position: relative;
+    padding: 230px 0 60px 0;
+    z-index: 1;
+}
+
+.img_section_btn_box{
+    max-width: 100%;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    z-index: 1;
+}
+
+.btn_box_justify{
+    justify-content: flex-end;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.btn_box_style{
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 0 !important ;
+}
+
+.btn_box_style a{
+    background: #fff;
+    color: #000;
+    letter-spacing: 1.2px;
+}
+
+.btn_box_style a:hover{
+    color: #fff;
+}

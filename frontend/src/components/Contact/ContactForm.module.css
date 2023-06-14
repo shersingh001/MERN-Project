@@ -1,0 +1,74 @@
+.contact_form_wrapper{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 8rem 0 4rem 0;
+}
+
+.contact_form{
+    padding: 4rem 3rem 2rem 4rem;
+}
+
+.contact_form h2{
+    font-family: Lora, sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+}
+
+.contact_form_input{
+    display: grid;
+}
+
+.user_info_details{
+    display: grid;
+}
+
+.user_info_details input{
+    border: none;
+    border-bottom: 1px solid gray;
+    background: transparent;
+    font-size: 1.3rem;
+    padding: 3px;
+    height: 2.8rem;
+    margin: 1rem 0 1rem 0;
+    outline: none;
+}
+
+.user_message{
+    display: grid;
+}
+
+.user_message textarea{
+    margin-top: 2rem;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 1.4rem;
+    background: transparent;
+    outline: none;
+}
+
+.contact_form_poster img{
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.user_message_btn{
+    margin: 3rem;
+}
+
+.user_message_btn input{
+    padding: 1rem 1.9rem;
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 32px;
+    font-size: 1.2rem;
+    transition: all 1s ease-in-out;
+}
+
+.user_message_btn input:hover{
+    box-shadow: inset 12rem 0 0 0 rgb(0,0,0,1);
+    color: #fff;
+}

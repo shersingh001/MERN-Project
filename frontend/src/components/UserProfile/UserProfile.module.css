@@ -1,0 +1,73 @@
+.userInfo_container {
+    max-width: 100%;
+}
+
+.userInfo_wrapper {
+    width: 60vw;
+    margin: 8rem auto 0 auto;
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border: 1px solid #ccc;
+}
+
+.userInfo_header {
+    padding: 3rem 0 3rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: gray;
+    border-bottom: 1px solid #ccc;
+}
+
+.userInfo_details_wrapper {
+    display: flex;
+}
+
+.userInfo_details_heading {
+    flex: 2;
+}
+
+.userInfo_details_wrapper ul {
+    padding: 3rem 0 3rem 2rem;
+}
+
+.userInfo_details_wrapper ul li {
+    margin-bottom: 1rem;
+}
+
+.userInfo_details_heading ul li {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.userInfo_details_value {
+    flex: 3;
+}
+
+.userInfo_details_value ul li{
+    color: #706f6f;
+    text-transform: uppercase;
+
+}
+
+.user_logout {
+    width: 60vw;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3rem 0 3rem 0;
+}
+
+.user_logout button {
+    width: 30%;
+    height: 50px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.user_logout button:hover {
+    border: 1px solid crimson;
+    background: crimson;
+    color: #fff;
+}

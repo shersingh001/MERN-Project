@@ -1,0 +1,11 @@
+.user_container{
+    display: flex;
+}
+
+.user_wrapper{
+    flex: 6;
+}
+
+.user_dataTable{
+    padding: 15px;
+}

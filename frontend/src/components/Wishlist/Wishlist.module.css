@@ -1,0 +1,30 @@
+.wishlist_wrapper_heading{
+    margin: 12rem 0 6rem 0;
+    text-align: center;
+    max-width: 100%;
+}
+
+.wishlist_wrapper_heading h2{
+    font-size: 5rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.wishlist_table{
+    display: grid;
+    margin-bottom: 8rem;
+}
+
+table{
+    margin: 3rem;
+}
+
+table, td, th, tr{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    border-collapse: collapse;
+    border: 1px solid rgba(33,33,33,0.1);
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.1rem;
+}

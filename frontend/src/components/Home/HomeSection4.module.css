@@ -1,0 +1,234 @@
+.container{
+    max-width: 100%;
+}
+
+.items_wrapper{
+    padding: 4rem;
+}
+
+.items_wrapper_heading{
+    margin: 4rem 0 6rem 0;
+}
+
+.items_wrapper_heading h2{
+    text-align: center;
+    width: 40vw;
+    margin: 0 auto;
+    font-size: 2.4rem;
+    letter-spacing: 0.2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.items_products_wrapper{
+    max-width: calc(1140px 30px);
+    display: flex;
+    gap: 2rem;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    align-items: normal !important;
+    margin: 2rem 3rem 2rem 3rem;
+}
+
+.item_one_wrapper{
+    flex-basis: 35%;
+    margin: 0;
+    min-width: 0;
+}
+
+.item_one_info{
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    box-sizing: inherit;
+}
+
+.item_one_wrapper{
+    max-width: 1140px;
+    position: relative;
+    width: 100%;
+    padding: 0 15px 0 15px;
+    z-index: 1;
+}
+
+
+.item_one_info figure img{
+    border-radius: inherit;
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.item_content{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0 1rem 0 ;
+}
+
+.item_content a, p{
+    color: rgb(44, 43, 43);
+    font-weight: 100;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+.item_content a:hover{
+    color: gray;
+}
+
+.items_two_product_wrapper{
+    flex-basis: 75%;
+    margin: 0;
+    min-width: 0;
+}
+
+.item_two_info{
+    justify-content: center;
+    padding: 100px 0 0 50px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.item_two_wrapper{
+    max-width: 1140px;
+    position: relative;
+    width: 100%;
+    padding: 0 15px 0 15px;
+    z-index: 1;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.item_two_wrapper figure img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+.item_container_wrapper{
+    max-width: 100%;
+    box-sizing: inherit;
+    margin-top: 6rem;
+}
+
+.item_container_wrapper_flex{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 60px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.item_container_wrapper_content{
+    max-width: 940px;
+    position: relative;
+    width: 100%;
+    padding: 0 15px 0 15px;
+    z-index: 1;
+}
+
+.item_container_wrapper_content_flex{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: nowrap;
+    align-items: normal;
+}
+
+.item_wrapper{
+    flex-basis: 350px;
+    margin: 0;
+    min-width: 0;
+}
+
+.item_box{
+    justify-content: center;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.item_box figure img{
+    height: auto;
+    max-width: 100%;
+}
+
+.item_content_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0 1rem 0;
+}
+
+.item_content_wrapper a, p{
+    color: rgb(44, 43, 43);
+    font-weight: 100;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+.item_content_wrapper a:hover{
+    color: gray;
+}
+
+.item_contents{
+    flex-basis: 500px;
+    margin: 0;
+}
+
+.item_contents_wrapper{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    padding: 50px 58px 58px 13px;
+    position: relative;
+}
+
+.item_contents_box{
+    max-width: 1140px;
+    position: relative;
+    width: 100%;
+    padding: 0 15px 0 15px;
+    z-index: 1;
+}
+
+.item_contents_box h2{
+    font-size: 2.1rem;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+}
+
+.item_contents_box p{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    color: gray;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 1.2px;
+    line-height: 1.4;
+}
+
+.item_contents_btn{
+    margin: 4rem 0 0 4rem;
+    align-items: center;
+}
+
+.item_contents_btn a{
+    border: 1px solid black;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    background: transparent;
+}
+
+.item_contents_btn a:hover{
+    color: #fff;
+    box-shadow: inset 14rem 0 0 0 black;
+}

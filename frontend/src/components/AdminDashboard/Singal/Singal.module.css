@@ -1,0 +1,96 @@
+.singalUser_container{
+    display: flex;
+    width: 100%;
+}
+
+.singalUser_wrapper{
+    flex: 6;
+}
+
+.user_top{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.user_top_left{
+    flex: 1;
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    padding: 10px;
+    position: relative;
+}
+
+.user_edit_btn{
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 5px;
+    background: rgb(71, 95, 173);
+    margin: 5px 8px 0 0;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 2px rgba(128, 128, 128, 0.671);
+}
+
+.user_title{
+    padding: 10px 0 20px 0;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: gray;
+}
+
+.user_item{
+    display: flex;
+    gap: 20px;
+}
+
+.user_item_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.user_top_right{
+    flex: 2;
+}
+
+.user_details h3{
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.details_item{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.itemKey{
+    font-weight: bold;
+    color: gray;
+    margin-right: 5px;
+    letter-spacing: 1px;
+}
+
+.itemValue{
+    color: gray;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.user_bottom{
+    padding: 10px;
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    margin: 10px 20px 10px 20px;
+}
+
+.user_bottom h2{
+    color: gray;
+    font-weight: 600;
+    padding: 15px 0 0 45px;
+    font-size: 18px;
+}

@@ -1,0 +1,83 @@
+.home_featured{
+    flex: 2;
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    padding: 10px;
+}
+
+.featured_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+}
+
+.featured_top .featured_title{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.featured_top svg{
+    cursor: pointer;
+}
+
+.featured_bottom{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.featured_chart{
+    width: 100px;
+    height: 100px;
+}
+
+.featured_bottom .featured_title{
+    color: gray;
+
+}
+
+.featured_amount{
+    font-size: 35px;
+}
+
+.featured_desc{
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    color: gray;
+    text-align: center;
+}
+
+.featured_summary{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.featured_item{
+    text-align: center;
+}
+
+.featured_item_title{
+    font-size: 14px;
+    color: gray;
+}
+
+.featured_item_result{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.positive{
+    color: green;
+}
+
+.negative{
+    color: red;
+}

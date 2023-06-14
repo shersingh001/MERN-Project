@@ -1,0 +1,136 @@
+.productsList_container {
+	display: flex;
+	width: 100%;
+}
+
+.productsList_wrapper {
+	flex: 6;
+}
+
+.productsList_head {
+	box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+	padding: 20px 10px;
+	margin: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #ecece6;
+	border-radius: 5px;
+}
+
+.productsList_head p {
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.productsList_head a {
+	background-color: rgb(41, 165, 165);
+	border: none;
+	padding: 10px 16px;
+	border-radius: 8px;
+	align-items: center;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+	font-weight: 500;
+	transition: all 0.3s ease-in-out;
+}
+
+.productsList_head a:hover {
+	background: rgb(67, 122, 122);
+}
+
+.product_card_container {
+	display: grid;
+	width: 70vw;
+	margin: 30px auto 20px auto;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	align-items: center;
+}
+
+.product_card {
+	box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+	padding: 15px 10px;
+	border-radius: 8px;
+}
+
+.product_card img {
+	width: 100%;
+	height: 40vh;
+}
+
+.product_card span {
+	margin: 0 0 10px 0;
+	display: block;
+	color: gray;
+}
+
+.product_card h3 {
+	margin: 5px 0 15px 0;
+	font-size: 28px;
+	font-weight: 100;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.product_card .card_btn {
+	display: flex;
+	justify-content: space-between;
+}
+
+.product_card .card_btn button {
+	width: 80px;
+	height: 2rem;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.card_btn .card_delete_btn {
+	background-color: rgb(214, 77, 104);
+	color: #fff;
+}
+
+.card_btn .card_delete_btn:hover {
+	background: rgb(241, 52, 90);
+}
+
+.card_btn .card_edit_btn {
+	background: rgb(71, 71, 182);
+	color: #fff;
+}
+
+.card_btn .card_edit_btn:hover {
+	background: rgb(48, 48, 243);
+}
+/* .product_details {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.product_img {
+	width: 32px;
+	height: 32px;
+	border-radius: 50px;
+	object-fit: cover;
+}
+
+.action {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.action_view_Btn {
+	border: 1px solid rgba(0, 0, 139, 0.233);
+	padding: 2px 8px;
+	color: rgb(57, 57, 170);
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.action_delete_Btn {
+	color: crimson;
+	cursor: pointer;
+} */

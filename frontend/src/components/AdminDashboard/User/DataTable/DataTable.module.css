@@ -1,0 +1,67 @@
+.add_new_user{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+
+.add_new_user a{
+    border: 1px solid rgb(70, 219, 77);
+    color: rgb(52, 190, 52);
+    padding: 5px 5px;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.add_new_user a:hover{
+    background: rgba(0, 128, 0, 0.041);
+}
+
+.user_details{
+    display: flex;
+    align-items: center;
+}
+
+.avatar_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.status{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.active{
+    color: green;
+    background: rgba(0, 128, 0, 0.192);
+}
+
+.pending{
+    color: goldenrod;
+    background: rgba(218, 165, 32, 0.192);
+}
+
+.action{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.action_view_Btn{
+    border: 1px solid rgba(0, 0, 139, 0.233);
+    padding: 2px 8px;
+    color: rgb(57, 57, 170);
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.action_delete_Btn{
+    color: crimson;
+    cursor: pointer;
+}

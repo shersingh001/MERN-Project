@@ -1,0 +1,41 @@
+.table_wrapper{
+    display: grid;
+}
+
+table, td, th, tr{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    border-collapse: collapse;
+    border: 1px solid rgba(33,33,33,0.1);
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+.product_table_data{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.product_table_data span img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.product_status{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Approved{
+    color: green;
+    background: rgba(59, 160, 59, 0.267);
+}
+
+.Pending{
+    color:goldenrod;
+    background: rgba(241, 189, 55, 0.253);
+}

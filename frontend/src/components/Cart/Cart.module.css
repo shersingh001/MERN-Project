@@ -1,0 +1,68 @@
+.container {
+	width: 100%;
+}
+
+.container_wrapper {
+	width: 80vw;
+	margin: 8rem auto 1rem auto;
+}
+
+.cart_heading {
+	text-align: center;
+}
+
+.cart_heading h2 {
+	font-size: 4rem;
+	font-weight: 400;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.go_back_link {
+	padding: 2rem 0 2rem 0;
+}
+
+.go_back_link a {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	font-size: 1.2rem;
+	color: rgb(85, 84, 84);
+	letter-spacing: 1.2px;
+}
+
+.cart_table {
+	display: grid;
+	margin-bottom: 8rem;
+}
+
+.cart_table .table_img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.cart_table img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50px;
+}
+
+table {
+	margin: 3rem;
+}
+
+table,
+td,
+th,
+tr {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	border-collapse: collapse;
+	border: 1px solid rgba(33, 33, 33, 0.1);
+	text-align: center;
+	padding: 1rem;
+	font-size: 1.1rem;
+}

@@ -1,0 +1,80 @@
+.contact_wrapper{
+    padding: 5rem 5rem 4rem 5rem;
+    max-width: 100%;
+    margin: 4rem auto auto auto;
+}
+
+.contact_heading h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    margin-bottom: 2.5rem;
+}
+
+.contact_heading p{
+    color: gray;
+    font-size: 1rem;
+    max-width: 800px;
+    letter-spacing: 1.2px;
+    font-family: Mulish, sans-serif;
+}
+
+.contact_info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.contact_info h2{
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 1.5rem;
+    font-size: 2.1rem;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+
+hr{
+    margin: 6rem 0 6rem 0;
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+}
+
+.contact_info_customer_care p{
+    max-width: 20vw;
+    color: gray;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-family: Mulish, sans-serif;
+    letter-spacing: 1.2px;
+}
+
+.contact_info_customer_care a {
+    color: rgb(64, 82, 64);
+    font-size: 1rem;
+    text-decoration: underline;
+    font-family: Mulish, sans-serif;
+    letter-spacing: 1.2px;
+}
+
+.contact_info_address p{
+    color: gray;
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+    font-family: Mulish, sans-serif;
+    letter-spacing: 1.2px;
+}
+
+.contact_info_social_icons a{
+    margin-right: 3rem;
+}
+
+.contact_info_social_icons a svg{
+    color: gray;
+    font-size: 1.8rem;
+}
+
+.contact_info_social_icons a svg:hover{
+    color: rgb(65, 64, 64);
+}
